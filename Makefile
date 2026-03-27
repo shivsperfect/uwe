@@ -3,3 +3,6 @@ run: build
 
 build:
 	@go build -o bin/uwe .
+
+seed:
+	@go run cmd/seed/main.go
